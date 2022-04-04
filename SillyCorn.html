@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Silly Corn</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/logo.png">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<header id="header">
+					<div class="inner" style="max-width: 55em;">
+						<a href="index.html"><p >&#8592 BACK</p></a>
+							<div class="box alt" style="margin-top: 2em;">
+								<div class="row gtr-uniform" >
+									<div class="col-3"><span class="image fit"><img src="images/silly.png" alt="" /></span></div>
+									<div class = "col-5">
+										<h1>Silly Corn</h1>
+										<h2 style="text-transform: none; letter-spacing: 0; font-weight: 500; margin-bottom: 0em;">Role: Programmer</h2>
+										<a href="https://senterri.itch.io/sillycorn"  class="icon brands style2 fa-itch-io" style="color: #f75958; font-size: 120%;" id="play"><span class="label">Play on Itch.io!</span></a>
+										<a href="https://github.com/rur1a/Silly-Corn" class="icon brands style2 fa-github" style="color: black;font-size: 120%;" id="source"><span class="label">GitHub</span></a>
+									</div>
+									<div class="col-4" style="text-align: right;">
+										<ul>
+											<li style="float:right">Game Architecture</li>
+											<li style="float:right">Gameplay Mechanics</li>
+											<li style="float:right"	>Game Logic and other features</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+					</div>
+				</header>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner"  style="max-width: 60em">
+							<div class="box alt">
+								<div class="row gtr-uniform">
+									<div class = "col-12">
+										<p style="text-indent: 2em;">It is my first big project after I decided to be a Game Programmer and had internship developing Mobile Games. In this game I was responsible of full code: architecture, mechanics, different game logic and gameplay features. Especially I paid attention to build responsive, easy to understand and expandable architecture. For that I used simple Service Locator as DI Container, State Machine for manipulating and controlling all Game States and connect this in Game Entry Point. Also tried to manipulate assets using Resources folder and had plans to replace this with Addressable, but I didn’t have enough time for that.</p>
+										
+									</div>
+									<div class = "col-12" style ="padding-top: 0em;">
+										<iframe frameborder="0" src="https://itch.io/embed-upload/5202453?color=ffffff" allowfullscreen="" width="100%" height="760"><a href="https://senterri.itch.io/sillycorn">Play SillyCorn on itch.io</a></iframe>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+			</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://unpkg.com/@popperjs/core@2"></script>
+			<script src="https://unpkg.com/tippy.js@6"></script>
+
+			<script>
+				tippy('#source', {
+				  content: '<a href="https://github.com/rur1a/Silly-Corn" class="tooltip">Check the source code!</a>',
+				  offset: 0,
+				  interactive: true,
+				  allowHTML: true,
+				});
+				tippy('#play', {
+				  content: '<a href="https://senterri.itch.io/sillycorn" class="tooltip">Play Game on Itch.io!</a>',
+				  offset: 0,
+				  interactive: true,
+				  allowHTML: true,
+				});
+			  </script>
+			
+
+	</body>
+</html>
